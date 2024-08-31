@@ -1,9 +1,9 @@
 'use client'
 
-import {TEST_2} from "../constants";
+import {TEST} from "../../constants";
 
 export default function RootLayout({children}) {
-    console.log(TEST_2)
+    console.log(TEST)
     return (
         <html>
         <head/>
